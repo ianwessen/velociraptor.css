@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Velociraptor: Small, fast CSS Boilerplate</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="velociraptor.css">
+  <link rel="stylesheet" href="example.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+  <section class="hero text-center" id="hero">
+  <img class="velociraptor-icon" src="images/raptor.png" alt="Velociraptoro">
+    <div class="container">
+      <div class="title-container">
+        <h1 class="title">Velociraptor</h1>
+        <h4 class="subtitle">Small, fast CSS Boilerplate</h4>
+		<div class="row">
+          <div class="six columns offset-by-three">
+            <h6 class="blurb">Light as an Archaeopteryx.
+			Flexible and responsive, like a Pterodactyl.
+			Does not hunt in packs, <em>un</em>like Velociraptor.</h6>
+          </div>
+        </div>
+		<!-- <br> -->
+        <!-- <a class="button button-primary button-download" href="">Download</a> -->
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    
+    <!-- Typography -->
+    <section class="example-section" id="typography">
+      <h3 class="docs-header">Typography</h3>
+      <h5>The typefaces used are Domine and Open Sans.</h5>
+	  <br>
+      <div class="row">
+        <div class="four columns">
+			<p><strong>Body typeface</strong><p>
+			<p>Open Sans 400</p>
+        </div>
+        <div class="eight columns">
+          <p>
+            Pterosaurs are often referred to in the popular media and by the general public as "flying dinosaurs", <b>but this is scientifically incorrect</b>. The term "dinosaur" is restricted to just those reptiles descended from the last common ancestor of the groups <em>Saurischia</em> and <em>Ornithischia</em> (clade <em>Dinosauria</em>, which includes birds), and current scientific consensus is that this group excludes the pterosaurs, <u>as well as the various groups of extinct marine reptiles</u>, such as ichthyosaurs, plesiosaurs, and mosasaurs.
+          </p>
+		  <p><span class="text-muted">Google Webfonts:</span>
+		  <a href="http://www.google.com/fonts/specimen/Open+Sans">Open Sans</a>, <a href="http://www.google.com/fonts/specimen/Domine">Domine</a>
+        </p>
+      </div>
+      </div>
+	  <hr>
+      <div class="row">
+        <div class="four columns">
+          <p><strong>Heading Typefaces</strong><p>
+          <p>Domine Bold 700</p>
+          <p>Open Sans Light 300</p>
+        </div>
+        <div class="eight columns">
+          <h1><span class="heading-label">H1</span>Pangaea</h1>
+          <h2><span class="heading-label">H2</span>Pangaea</h2>
+          <h3><span class="heading-label">H3</span>Pangaea</h3>
+          <h4><span class="heading-label">H4</span>Pangaea</h4>
+          <h5><span class="heading-label">H5</span>Pangaea</h5>
+          <h6><span class="heading-label">H6</span>Pangaea</h6>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+    <!-- Grid -->
+    <section class="example-section" id="grid">
+      <h3>The grid</h3>
+      <div class="example-grid">
+        <div class="row">
+          <div class="one column">One</div>
+          <div class="eleven columns">Eleven</div>
+        </div>
+        <div class="row">
+          <div class="two columns">Two</div>
+          <div class="ten columns">Ten</div>
+        </div>
+        <div class="row">
+          <div class="three columns">Three</div>
+          <div class="nine columns">Nine</div>
+        </div>
+        <div class="row">
+          <div class="four columns">Four</div>
+          <div class="eight columns">Eight</div>
+        </div>
+        <div class="row">
+          <div class="five columns">Five</div>
+          <div class="seven columns">Seven</div>
+        </div>
+        <div class="row">
+          <div class="six columns">Six</div>
+          <div class="six columns">Six</div>
+        </div>
+        <div class="row">
+          <div class="seven columns">Seven</div>
+          <div class="five columns">Five</div>
+        </div>
+        <div class="row">
+          <div class="eight columns">Eight</div>
+          <div class="four  columns">Four</div>
+        </div>
+        <div class="row">
+          <div class="nine columns">Nine</div>
+          <div class="three columns">Three</div>
+        </div>
+        <div class="row">
+          <div class="ten columns">Ten</div>
+          <div class="two columns">Two</div>
+        </div>
+        <div class="row">
+          <div class="eleven columns">Eleven</div>
+          <div class="one column">One</div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Buttons -->
+    <section class="example-section" id="buttons">
+      <h3 class="docs-header">Buttons</h3>
+      <div class="row text-center">
+        <div>
+          <a class="button" href="#">Anchor button</a>
+          <button>Button element</button>
+          <input type="submit" value="Input submit">
+          <input type="button" value="Input button">
+        </div>
+        <div>
+          <a class="button button-primary" href="#">Anchor button</a>
+          <button class="button-primary">Button element</button>
+          <input class="button-primary" type="submit" value="Input submit">
+          <input class="button-primary" type="button" value="Input button">
+        </div>
+      </div>
+    </section>
+
+    <!-- Forms -->
+    <section class="example-section" id="forms">
+      <h3 class="docs-header">Forms</h3>
+      <div class="docs-example docs-example-forms">
+        <form>
+          <div class="row">
+            <div class="six columns">
+              <label for="exampleEmailInput">Your email</label>
+              <input class="u-full-width" type="email" placeholder="littlefoot@landbeforetime.com">
+            </div>
+            <div class="six columns">
+              <label for="exampleRecipientInput">Reason for contacting</label>
+              <select class="u-full-width" id="exampleRecipientInput">
+                <option value="Option 1">Question</option>
+                <option value="Option 2">Suggestion</option>
+                <option value="Option 3">Complaint of predators</option>
+              </select>
+            </div>
+          </div>
+          <label for="exampleMessage">Message</label>
+          <textarea class="u-full-width" placeholder="Type a message..." id="exampleMessage"></textarea>
+          <label class="example-send-yourself-copy">
+            <input type="checkbox">
+            <span class="label-body">I am not a hungry dinosaur</span>
+          </label>
+          <input class="button-primary" type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+
+    <!-- Lists -->
+    <section class="example-section" id="lists">
+      <h3 class="docs-header">Lists</h3>
+      <div class="row docs-example">
+        <div class="six columns">
+          <ul>
+            <li>Unordered lists have basic styles</li>
+            <li>
+              They use the circle list style
+              <ul>
+                <li>Nested lists styled to feel right</li>
+				<li>Can nest either type of list into the other</li>
+				<li>Dinosaurs also likely exhibited nesting.</li>
+              </ul>
+            </li>
+			<li>A good list is a simple list</li>
+          </ul>
+        </div>
+        <div class="six columns">
+			<h5>Features linking birds and dinosaurs:</h5>
+          <ol>
+            <li>Feathered limbs.</li>
+            <li>
+              Hollow, pneumatized bones including the appearance of:
+              <ul>
+                <li>Straplike scapula (shoulder blade)</li>
+                <li>Inverted pubus (bone in pelvus)</li>
+				<li>Collarbone fused to form a “wishbone”</li>
+              </ul>
+            </li>
+			<li>Gastroliths in the digestive system.</li>
+			<li>Nest-building and brooding behaviors.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tables -->
+    <section class="example-section" id="tables">
+      <h3 class="docs-header">Tables</h3>
+      <div class="docs-example">
+        <table class="u-full-width table-dinosaurs">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Dates</th>
+              <th>Dinosaurs</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Triassic</td>
+              <td>252 &ndash; 201 million years ago</td>
+              <td class="dino-list">Ichthyosaurs, Lystrosaurus, Euparkeria, Temnospondyli</td>
+            </tr>
+            <tr>
+              <td>Jurassic</td>
+              <td>201 &ndash; 145 million years ago</td>
+              <td class="dino-list"> Archaeopteryx, Stegosaurus, Brachiosaurus, Diplodocus</td>
+            </tr>
+            <tr>
+              <td>Cretaceous</td>
+              <td>145 &ndash; 65 million years ago</td>
+              <td class="dino-list">Tyrannosaurus, Ankylosaurus, Triceratops, Velociraptor</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Queries -->
+    <section class="example-section" id="queries">
+      <h3 class="docs-header">Media queries</h3>
+      <div class="docs-example row">
+        <div class="six columns">
+          <ul>
+            <li><strong>Desktop HD</strong>: 1200px</li>
+            <li><strong>Desktop</strong>: 1000px</li>
+            <li><strong>Tablet</strong>: 750px</li>
+          </ul>
+        </div>
+        <div class="six columns">
+          <ul>
+            <li><strong>Phablet</strong>: 550px</li>
+            <li><strong>Mobile</strong>: 400px</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Utilities and Misc. -->
+    <section class="example-section" id="utilities">
+      <h3 class="docs-header">Utilities</h3>
+	  <p>Useful, convenient classes with a Bootstrap accent.</p>
+    </section>
+	
+	<!-- Footer -->
+	<footer class="text-center">
+		<hr>
+		<p>&copy; <script>document.write(new Date().getFullYear())</script> <strong>VELOCIRAPTOR</strong>, No Rights Reserved</p>
+		<a target="_blank" href="https://en.wikipedia.org/wiki/Velociraptor">Learn</a>
+		<a target="_blank" href="https://en.wikipedia.org/wiki/Deinonychus">Something</a>
+		<a target="_blank" href="https://en.wikipedia.org/wiki/Utahraptor">Neat</a>
+	</footer>
+  </div>
+</body>
+</html>
